@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        var input1 = +prompt("Enter first value ")
+        var input2 = +prompt("Enter Second value ")
+        var input3 = prompt("operator + - * /")  
+
+
+        function calculate(value1 , value2, operation){
+
+        switch (operation){
+            case "+" :
+                alert(value1 +value2)
+                break;
+            case "-" :
+                alert(value1 - value2)
+                break;
+            case "*" :
+                alert(value1 * value2)
+                break;
+            case "/" :
+                alert(value1 / value2)
+                break;            
+
+        }
+    }
+
+    calculate(input1 , input2 , input3 )
+
+
+
+
+    </script>
+</body>
+
+</html>
